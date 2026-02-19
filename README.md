@@ -2,9 +2,11 @@
 
 A premium, minimalist music player for **osu! beatmaps**, designed with the sleek aesthetics of **osu!lazer** in mind. Built for a fast, immersive, and high-performance audio experience on macOS.
 
-![Mobile Design](assets/screenshot-mobile.png)
-
-![Desktop Design](assets/screenshot-desktop.png)
+<div align="center">
+  <img src="assets/screenshot-mobile.png" width="45%" alt="Mobile Design" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshot-desktop.png" width="45%" alt="Desktop Design" />
+</div>
 
 ## ? Features
 
