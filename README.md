@@ -1,7 +1,7 @@
 # osu!music
 
 <p align="center">
-  <img src="assets/screenshot-desktop.png" width="100%" alt="Mobile Design" align="left" style="margin-right: 20px;" />
+  <img src="assets/screenshot-desktop.png" width="350" alt="Mobile Design" align="left" style="margin-right: 20px;" />
 
 </p>
 
@@ -15,7 +15,7 @@ Minimalist music player for your **osu! beatmaps** library, designed with the sl
 
 <br>
 
-<img src="assets/screenshot-mobile.png" width="350" alt="Desktop Design" />
+<img src="assets/screenshot-mobile.png" width="100%" alt="Desktop Design" />
 
 </details>
 
