@@ -1,0 +1,33 @@
+:root {
+  --color-osu-scrim: rgba(0, 0, 0, 0.8);
+  --color-osu-bg: #111;
+  --color-osu-purple: #cc55cc;
+  --color-osu-blue: #55cccc;
+  --font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-osu-bg);
+  color: white;
+  font-family: var(--font-family);
+  overflow: hidden;
+  /* Prevent native scroll, we use custom scroll */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Custom Scrollbar if needed */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 5px;
+}
