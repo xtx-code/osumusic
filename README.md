@@ -1,8 +1,10 @@
-#osu!music
+# ?? osu!music
 
 A premium, minimalist music player for **osu! beatmaps**, designed with the sleek aesthetics of **osu!lazer** in mind. Built for a fast, immersive, and high-performance audio experience on macOS.
 
-## Features
+![App Preview](https://raw.githubusercontent.com/xtx-junkcode/osumusic/main/build/icon.png)
+
+## ? Features
 
 - **Lazer-Inspired UI**: A stunning glassmorphic interface with vibrant card backgrounds and smooth animations.
 - **Beatmap Integration**: Automatically detects and plays music directly from your osu! installation.
@@ -10,40 +12,19 @@ A premium, minimalist music player for **osu! beatmaps**, designed with the slee
 - **Premium Audio**: High-quality playback powered by Howler.js.
 - **macOS Native**: Optimized for macOS with custom icons, window draggability, and native behavior.
 
-## Tech Stack
+## ?? Installation
+
+1. **Download**: Grab the latest `.dmg` from the **[Releases](https://github.com/xtx-junkcode/osumusic/releases)** page.
+2. **Install**: Open the `.dmg` file and drag **osu!music** to your **Applications** folder.
+3. **Launch**: Find **osu!music** in your Launchpad and open it. 
+   > *Note: If macOS prevents opening, go to System Settings > Privacy & Security and click "Open Anyway".*
+
+## ??? Tech Stack
 
 - **Frontend**: React 19 + TypeScript + Vite
 - **Animations**: Framer Motion
-- **Database**: Realm (MongoDB) for fast beatmap indexing
 - **Desktop**: Electron 40.6.0
-- **Build**: Electron Builder
-
-## Getting Started
-
-### Prerequisites
-- Node.js (v20+)
-- npm
-
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/xtx-junkcode/osumusic.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run in development mode:
-   ```bash
-   npm run dev
-   ```
-4. Build for production:
-   ```bash
-   npm run dist
-   ```
-
-## ?? Releases
-Grab the latest `.dmg` or `.zip` from the [releases page](https://github.com/xtx-junkcode/osumusic/releases) or the `release/` folder after building.
+- **Database**: Realm (MongoDB)
 
 ---
 Created with ?? by [tonixtx](https://github.com/xtx-junkcode)
