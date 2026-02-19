@@ -1,7 +1,7 @@
 {
   "name": "osumusic",
   "private": true,
-  "version": "2.3.80",
+  "version": "2.3.81",
   "type": "module",
   "author": "tonixtx",
   "description": "A minimalist music player for osu! beatmaps",
