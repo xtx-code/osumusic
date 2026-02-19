@@ -2,7 +2,9 @@
 
 A premium, minimalist music player for **osu! beatmaps**, designed with the sleek aesthetics of **osu!lazer** in mind. Built for a fast, immersive, and high-performance audio experience on macOS.
 
-![App Preview](https://raw.githubusercontent.com/xtx-junkcode/osumusic/main/build/icon.png)
+![Mobile Design](assets/screenshot-mobile.png)
+
+![Desktop Design](assets/screenshot-desktop.png)
 
 ## ? Features
 
@@ -21,10 +23,10 @@ A premium, minimalist music player for **osu! beatmaps**, designed with the slee
 
 ## ??? Tech Stack
 
-- **Frontend**: React 19 + TypeScript + Vite
-- **Animations**: Framer Motion
-- **Desktop**: Electron 40.6.0
-- **Database**: Realm (MongoDB)
+Frontend: React 19 + TypeScript + Vite
+Animations: Framer Motion
+Desktop: Electron 40.6.0
+Database: Realm (MongoDB)
+AI: Gemini 3.1 Pro
 
----
-Created with ?? by [tonixtx](https://github.com/xtx-junkcode)
+Created with Gemini 3.1 by tonixtx
