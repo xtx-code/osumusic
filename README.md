@@ -1,8 +1,6 @@
-# ?? osu!music
+#osu!music
 
 A premium, minimalist music player for **osu! beatmaps**, designed with the sleek aesthetics of **osu!lazer** in mind. Built for a fast, immersive, and high-performance audio experience on macOS.
-
-![App Preview](https://raw.githubusercontent.com/xtx-junkcode/osumusic/main/build/icon.png)
 
 ## ? Features
 
