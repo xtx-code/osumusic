@@ -2,7 +2,7 @@
 
 A premium, minimalist music player for **osu! beatmaps**, designed with the sleek aesthetics of **osu!lazer** in mind. Built for a fast, immersive, and high-performance audio experience on macOS.
 
-## ? Features
+## Features
 
 - **Lazer-Inspired UI**: A stunning glassmorphic interface with vibrant card backgrounds and smooth animations.
 - **Beatmap Integration**: Automatically detects and plays music directly from your osu! installation.
@@ -10,7 +10,7 @@ A premium, minimalist music player for **osu! beatmaps**, designed with the slee
 - **Premium Audio**: High-quality playback powered by Howler.js.
 - **macOS Native**: Optimized for macOS with custom icons, window draggability, and native behavior.
 
-## ??? Tech Stack
+## Tech Stack
 
 - **Frontend**: React 19 + TypeScript + Vite
 - **Animations**: Framer Motion
@@ -18,7 +18,7 @@ A premium, minimalist music player for **osu! beatmaps**, designed with the slee
 - **Desktop**: Electron 40.6.0
 - **Build**: Electron Builder
 
-## ?? Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v20+)
