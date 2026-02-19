@@ -2,11 +2,22 @@
 
 A premium, minimalist music player for **osu! beatmaps**, designed with the sleek aesthetics of **osu!lazer** in mind. Built for a fast, immersive, and high-performance audio experience on macOS.
 
-<div align="center">
-  <img src="assets/screenshot-mobile.png" width="45%" alt="Mobile Design" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshot-desktop.png" width="45%" alt="Desktop Design" />
-</div>
+<p align="center">
+  <img src="assets/screenshot-mobile.png" width="350" alt="Mobile Design" align="left" style="margin-right: 20px;" />
+</p>
+
+This application automatically detects your local osu! installation and allows you to browse and play your beatmaps seamlessly.
+
+<br clear="left"/>
+
+<details>
+<summary><b>??? View Desktop Version</b></summary>
+
+<br>
+
+<img src="assets/screenshot-desktop.png" width="100%" alt="Desktop Design" />
+
+</details>
 
 ## ? Features
 
