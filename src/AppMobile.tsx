@@ -200,8 +200,8 @@ function App() {
             // Find first set with current mode
             const firstSet = beatmaps.find(set => set.beatmaps.some(m => m.rulesetId === selectedMode));
             if (firstSet) {
-                // For initial load, we don't necessarily want to scroll/animate
-                handleSelectSet(firstSet, false);
+                // For initial load, we don't want to scroll/animate OR autoplay
+                handleSelectSet(firstSet, false, false);
             }
         }
     }, [beatmaps, selectedMode]); // Re-run if mode changes
@@ -261,7 +261,7 @@ function App() {
         }
     };
 
-    const handleSelectSet = (set: BeatmapSet, shouldAnimate: boolean = true) => {
+    const handleSelectSet = (set: BeatmapSet, shouldAnimate: boolean = true, autoPlay: boolean = true) => {
         if (selectedSet?.id === set.id) {
             // Scroll to center even if already selected
             if (shouldAnimate) scrollToCenter(set.id);
@@ -277,7 +277,7 @@ function App() {
 
         if (mapsToUse.length > 0) {
             const sorted = [...mapsToUse].sort((a, b) => a.starRating - b.starRating);
-            selectBeatmap(sorted[0], true);
+            selectBeatmap(sorted[0], autoPlay);
         }
 
         if (shouldAnimate) {

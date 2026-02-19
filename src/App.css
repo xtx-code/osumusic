@@ -361,10 +361,7 @@ body {
 
 
 
-.beatmap-card.mobile-card.active 
-
-
-
+.beatmap-card.mobile-card.active
 /* Clean Osu-style Cards */
 
 
@@ -375,10 +372,7 @@ body {
 
 
 
-.beatmap-card.mobile-card.active 
-
-
-
+.beatmap-card.mobile-card.active
 /* FINAL PREMIUM CARDS - RESTORED SIZE */
 
 
@@ -399,13 +393,15 @@ body {
   width: 100% !important;
   display: flex !important;
   justify-content: center !important;
-  margin-bottom: 2px !important; /* Tight osu!lazer spacing */
+  margin-bottom: 5px !important;
+  /* Tight osu!lazer spacing */
 }
 
 .beatmap-card.mobile-card {
-  width: 100% !important; /* FULL WIDTH */
+  width: 100% !important;
+  /* FULL WIDTH */
   height: 85px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 0px solid rgba(255, 255, 255, 0.05);
   background: #111 !important;
   transition: all 0.2s ease;
   overflow: hidden;
@@ -413,14 +409,16 @@ body {
   position: relative;
   transform: none !important;
   clip-path: none !important;
-  border-radius: 0; /* Let's go for solid list style like in many osu! themes, or keep slight rounding */
+  border-radius: 6px;
+  /* Slightly more rounded */
 }
 
 /* Add rounding only to top/bottom of sets if needed, but let's try solid first for "osu" feel */
 .beatmap-card.mobile-card {
-    border-radius: 4px; /* Subtle rounding */
-    width: 98% !important; /* Slightly off-edge */
-    margin-top: 2px;
+  border-radius: 6px;
+  width: 96% !important;
+  max-width: 625px !important;
+  margin-top: 2px;
 }
 
 .card-bg {
@@ -433,8 +431,9 @@ body {
   background-position: center;
   opacity: 1 !important;
   z-index: 0;
-  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.1) 10%, black 50%);
-  mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.1) 10%, black 50%);
+  filter: brightness(1.0);
+  -webkit-mask-image: none;
+  mask-image: none;
 }
 
 .card-content {
@@ -446,7 +445,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 0 20px;
-  background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.9) 20%, transparent 80%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 40%, transparent 100%);
 }
 
 .card-title {
@@ -477,7 +476,8 @@ body {
 
 .beatmap-card.mobile-card.active {
   background: #2a2a2a !important;
-  border-left: 6px solid #ff66aa; /* Lazer active bar */
+  border-left: 6px solid #ff66aa;
+  /* Lazer active bar */
   transform: scale(1.01);
   z-index: 5;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
@@ -531,10 +531,9 @@ body {
   z-index: -1;
 
   /* Glass Styles - Darker gradient at bottom for visibility */
-  /* User requested dimming starts "higher", so we shift the dark stops effectively up (lower %) */
-  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.85) 30%, rgba(0, 0, 0, 0.98) 80%);
-  backdrop-filter: blur(25px);
-  -webkit-backdrop-filter: blur(25px);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.85) 50%, rgba(0, 0, 0, 0.98) 100%);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
 
   /* Smooth Fade-In Mask */
   mask-image: linear-gradient(to bottom, transparent 0%, black 43%);
@@ -817,9 +816,9 @@ body {
   clip-path: polygon(10px 0, 100% 0, 100% 100%, 0 100%);
   display: flex;
   align-items: center;
-  padding-left: 25px;
+  padding-left: 0px;
   cursor: pointer;
-  border-left: 3px solid transparent;
+  border-left: 0px solid transparent;
   width: 70%;
   /* Reduced width */
   transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
