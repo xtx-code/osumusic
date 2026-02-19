@@ -7,11 +7,12 @@
 
 
 
+**About**
 
 This application automatically detects your local osu! installation and allows you to browse and play your beatmaps seamlessly.
 Minimalist music player for your **osu! beatmaps** library, designed with the sleek aesthetics of **osu!lazer** in mind. Built for situations when you can’t or don’t want to play osu!, but still want to listen to the music from beatmaps.
 
-Features
+**Features**
 
 - **Lazer-Inspired UI**: Interface with vibrant card backgrounds and smooth animations.
 - **Beatmap Integration**: Automatically detects and plays music directly from your osu! installation.
@@ -38,10 +39,10 @@ Features
 
 ## Tech Info
 
-Frontend: React 19 + TypeScript + Vite
-Animations: Framer Motion
-Desktop: Electron 40.6.0
-Database: Realm (MongoDB)
-AI: Gemini 3.1 Pro
-
-Created with Gemini 3.1 by tonixtx
+Frontend: React 19 + TypeScript + Vite  
+Animations: Framer Motion  
+Desktop: Electron 40.6.0  
+Database: Realm (MongoDB)  
+AI: Gemini 3.1 Pro  
+  
+Created with Gemini 3.1 by tonixtx  
