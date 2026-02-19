@@ -230,6 +230,11 @@ function App() {
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [filteredBeatmaps, selectedSet]);
 
+    const handleNextRef = useRef<(() => void) | null>(null);
+    useEffect(() => {
+        handleNextRef.current = handleNext;
+    });
+
     const selectBeatmap = (map: Beatmap, autoPlay: boolean = true) => {
         // If we represent the same audio file, don't restart playback
         const isSameAudio = selectedMap?.audioPath === map.audioPath;
@@ -253,6 +258,11 @@ function App() {
                 html5: true, // Restore HTML5 Audio
                 volume: 0.5,
                 autoplay: autoPlay, // Only auto-play if requested (e.g. new set selected)
+                onend: () => {
+                    if (handleNextRef.current) {
+                        handleNextRef.current();
+                    }
+                }
             });
             if (autoPlay) {
                 sound.play();
